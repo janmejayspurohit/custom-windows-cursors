@@ -1,0 +1,57 @@
+;My custom cursors - Janmejay
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"alternate-select.cur"
+"busy.ani"
+"diagonal-resize-1.cur"
+"diagonal-resize-2.cur"
+"handwriting.cur"
+"help-select.cur"
+"horizontal-resize.cur"
+"link-select.cur"
+"location-select.cur"
+"move.cur"
+"normal-select.cur"
+"person-select.cur"
+"precision-select.ani"
+"text-select.cur"
+"unavailable.cur"
+"vertical-resize.cur"
+"working-in-background.ani"
+
+[Strings]
+CUR_DIR                    = "Cursors\mycursors"
+SCHEME_NAME        = "My Cursors"
+pointer		= "normal-select.cur"
+help		= "help-select.cur"
+work		= "working-in-background.ani"
+busy		= "busy.ani"
+cross		= "precision-select.ani"
+text		= "text-select.cur"
+hand		= "handwriting.cur"
+unavailiable	= "unavailable.cur"
+vert		= "vertical-resize.cur"
+horz		= "horizontal-resize.cur"
+dgn1		= "diagonal-resize-1.cur"
+dgn2		= "diagonal-resize-2.cur"
+move		= "move.cur"
+alternate	                  = "alternate-select.cur"
+link		= "link-select.cur"
+pin		= "location-select.cur"
+person		= "person-select.cur"
